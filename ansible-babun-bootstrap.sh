@@ -52,7 +52,7 @@ if [ -f /etc/ansible-babun-bootstrap.completed ]
 
     #Setup Ansible from Source
     mkdir -p $ANSIBLE_DIR
-    git clone git://github.com/ansible/ansible.git --recursive $ANSIBLE_DIR
+    git clone https://github.com/ansible/ansible.git --recursive $ANSIBLE_DIR
     cd $ANSIBLE_DIR
     source ./hacking/env-setup
     cd $CURRENT_DIR
