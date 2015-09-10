@@ -42,7 +42,7 @@ if [ -f /etc/ansible-babun-bootstrap.completed ]
     pact install openssh
     pact install python-setuptools
     pact install libyaml-devel
-    easy_install pip
+    easy_install-2.7 pip
     pip install PyYAML Jinja2 httplib2 boto awscli
 
     #Create initial Ansible hosts inventory
