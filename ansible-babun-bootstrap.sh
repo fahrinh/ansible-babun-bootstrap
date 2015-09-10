@@ -51,6 +51,7 @@ if [ -f /etc/ansible-babun-bootstrap.completed ]
     chmod -x /etc/ansible/hosts
 
     #Setup Ansible from Source
+    echo "Clone Ansible ..."
     mkdir -p $ANSIBLE_DIR
     git clone https://github.com/ansible/ansible.git --recursive $ANSIBLE_DIR
     cd $ANSIBLE_DIR
