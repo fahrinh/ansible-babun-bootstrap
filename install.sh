@@ -2,7 +2,7 @@
 
 if [ ! -d ansible-babun-bootstrap ]
  then
-  git clone https://github.com/tiangolo/ansible-babun-bootstrap.git
+  git clone https://github.com/phai/ansible-babun-bootstrap.git
 else
   cd ansible-babun-bootstrap
   git pull
